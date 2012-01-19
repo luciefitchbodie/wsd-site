@@ -198,7 +198,6 @@ color: #5a5a5c;
 @media screen and (min-width: 768px) and (max-width: 959px){
 body{
 max-width: 959px;
-background-color: #adafab;
 }
 #container{
 	width: 93.743483%; /*899px/959px*/
@@ -225,7 +224,6 @@ background-color: #adafab;
 @media screen and (min-width: 480px) and (max-width: 767px){
 body{
 max-width: 767px;
-background-color: #3a3c37;
 }
 #container{
 width: 97.392438%; /*747px/767px*/
@@ -275,7 +273,6 @@ width: 97.322624%; /*727px/747px*/
 @media screen and (max-width: 479px){
 body{
 max-width: 479px;
-background-color: #040600;
 }
 #container{
 width: 99%;
