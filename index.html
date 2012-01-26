@@ -66,24 +66,86 @@
 				<p>Some of our services include but are not limited to - Green Cleaning, Carpet Cleaning, 
 				Floor Stripping and Waxing, and Restroom and Janitorial Supplies 
 				(many eco-friendly products are available).</p>
-					
+			</div>
 		</div>
 		<div id="contact_section">
 			<h2 id="contact_us">Contact Us</h2>
-			<p><strong>Ocean Breeze Commercial Cleaning</strong><br>Phone:(850)934-1781<br>Fax:(850)934-8378
-			<a href= "mailto:oceanbreezeclean@bellsouth.net">info@oceanbreezeclean.com</a>
-			</p>
-			<p>Payment Options:<br>Visa &amp; Mastercard
-			<img src="images/visa_mastercard.png" alt="visa and mastercard logos."></p>
-			<h3 class="submit_button"><a href= "mailto:oceanbreezeclean@bellsouth.net">Submit</a></h3>
-		</div>		
+			<div id="form">
+			<h4>New Client?</h4>
+			<form method="get" action="mailto:oceanbreezeclean@bellsouth.net">
+				<fieldset>
+				<div id="first_name">
+					<label for="name_first">First Name</label>
+					<input type="text" name="name_first" id="name_first"/>
+				</div>
+				<div id="last_name">
+					<label for="name_last">Last Name</label>
+					<input type="text" name="name_last" id="name_last"/>
+				</div>
+				<div id="phone_number">
+					<label for="phone">Phone Number</label>
+					<input type="text" name="phone" id="phone"/>
+				</div>
+				<div id="email_address">
+					<label for="email">E-mail Address</label>
+					<input type="text" name="email" id="email"/>
+				</div>
+				<div id="contact">
+					<label for="please_contact">Please contact me regarding</label>
+				</div>
+				<div id="select_scroll">
+					<select name="please_contact" id="please_contact">
+						<option>General Inquiry</option>
+						<option>Quote</option>
+						<option>Quote Comparison</option>
+						<option>Other</option>
+					</select>
+				</div>
+				<div id="message">
+					<label for="details">Details</label>
+					<textarea rows="15" cols="50" name="details" id="details"></textarea>
+					</div>
+				</fieldset>
+				</form>
+				</div>
+				<h3 class="submit_button"><a href= "mailto:oceanbreezeclean@bellsouth.net">Submit</a></h3>
+			<div id="table">
+			<h4>Already a Client?</h4>
+			<table>
+				<tr>
+					<th>Contact Name</th>
+					<th>Phone</th>
+					<th>Email</th>
+					<th>Title</th>
+				</tr>
+				<tr class="new_biz">
+					<td>Betsy Cadle</td>
+					<td>850.934.1781</td>
+					<td><a href= "mailto:oceanbreezeclean@bellsouth.net">bcadle@oceanbreezeclean.com</a></td>
+					<td>New Business</td>
+				</tr>
+				<tr>
+					<td>Richard Cadle</td>
+					<td>850.934.1782</td>
+					<td><a href= "mailto:oceanbreezeclean@bellsouth.net">rcadle@oceanbreezeclean.com</a></td>
+				<td>Special Services</td>
+				</tr>
+				<tr class="billing">
+					<td>Carly Verret</td>
+					<td>850.934.1783</td>
+					<td><a href= "mailto:oceanbreezeclean@bellsouth.net">cverret@oceanbreezeclean.com</a></td>
+					<td>Billing</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+		</div>
 	<div id="footer">
 		<footer>
 			<p class="footer1">Website created by LFB <span class="footer2">| All rights reserved</span>
 			<span class="footer3">| &copy;2012</span></p>
 		</footer>
 	</div>
-</div>
 </div>
 </body>
 </html>

@@ -15,7 +15,7 @@ color: #024059;
 padding-left: 30px;
 }
 h4{
-font: 1.25em 'Lato', sans-serif; /*20px*/
+font: 1.5em 'Lato', sans-serif; /*20px*/
 color: #024059;
 }
 img{
@@ -132,7 +132,7 @@ border-bottom: 5px solid #c8c9c7;
 #services_section{
 width: 96%; /*960px/1000px*/
 padding: 10px;
-overflow: hidden:
+overflow: hidden;
 }
 	.green{
 	width: 30%; /*280px/900px*/
@@ -152,8 +152,41 @@ padding-bottom: 50px;
 margin-bottom: 10px;
 border-top: 5px solid #c8c9c7;
 border-bottom: 5px solid #c8c9c7;
-clear: both; 
+clear: both;
+overflow: hidden;
 }
+fieldset{
+padding: 10%;
+}
+	#form{
+	width: 60%; /*576px/960px*/ 
+	}
+	input{
+	width: 95%;
+	padding: 1%;
+	}
+	input:focus{
+	background: #e1eef8;
+	}
+	textarea:focus{
+	background: #e1eef8;
+	}
+	#first_name{
+	margin-bottom: 20px;
+	}
+	#last_name{
+	margin-bottom: 20px;
+	}
+	#phone_number{
+	margin-bottom: 20px;
+	}
+	#email_address{
+	margin-bottom: 20px;
+	}
+	#select_scroll{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
 	.submit_button{
 	background-color: #161818;
 	border-radius: 25px;
@@ -162,6 +195,7 @@ clear: both;
 	text-align: center;
 	color: #f5fbfb;
 	width: 100px;
+	margin-left: 73%;
 	padding: 20px;
 	}
 	.submit_button a:link{
@@ -169,13 +203,34 @@ clear: both;
 	text-decoration: none;
 	}
 	.submit_button a:hover{
-	color: #f5fbfb;
+	color: #fcfdfe;
 	text-decoration: none;
 	}
 	.submit_button a:active{
 	color: #010101;
 	text-decoration: none;
 	}
+	#table{
+	width:100%;
+	}
+	table{
+	width: 700px;
+	border-collapse: collapse;
+	}
+	th{
+	text-align: left;
+	padding: .5em;
+	}
+	td{
+	padding: .5em;
+	}
+	.new_biz{
+	background-color: #e1eef8;
+	}
+	.billing{
+	background-color: #e1eef8;
+	}
+	
 	
 #footer{
 width: 96%; /*960px/1000px*/
@@ -183,6 +238,7 @@ margin: 0 auto;
 padding-left: 4%;
 padding-bottom: 50px;
 color: #5a5a5c;
+overflow: hidden;
 }
 	.footer2{
 	padding-left: 1%;
